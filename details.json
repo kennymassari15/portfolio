@@ -1,0 +1,67 @@
+{
+  "socials": [
+    // {
+    //   "title": "YouTube",
+    //   "name": "Mr Budiman",
+    //   "url": "https://www.youtube.com/channel/UCxXdfk-udlBrLJji8nBipMg"
+    // },
+    {
+      "title": "Linkedin",
+      "name": "kenny-massari",
+      "url": "https://www.linkedin.com/in/kenny-massari/"
+    },
+    {
+      "title": "GitLab",
+      "name": "kenny.massari",
+      "url": "https://gitlab.com/kenny.massari"
+    }
+  ],
+  "skills": [
+    "nodejs",
+    "java",
+    "C#",
+    "GO",
+    "php",
+    "python",
+    "JS/TS",
+    "flutter",
+    "react-native",
+    "linux",
+    "OpenShift",
+    "docker",
+    "kubernetes",
+    "cloud",
+    "microservices",
+    "NextJS",
+    "mysql",
+    "mongo",
+    "redis",
+    "mqtt",
+    "expressJS",
+    "networking",
+    "AWS",
+    "ECH",
+    "CCNA",
+    "modernisation",
+    "SCRUM",
+    "threejs",
+    "tailwindcss",
+    "ETC..."
+  ],
+  "projects": [
+    {
+      "date": "Feb 1 2023",
+      "title": "My Portfolio",
+      "githubUrl": "https://github.com/mattbman23/portfolio",
+      "desc": "Containerized Portfolio",
+      "tags": ["NextJs", "Tailwind"]
+    },
+    {
+      "date": "Feb 1 2023",
+      "title": "My Blog",
+      "githubUrl": "https://github.com/mattbman23/personal_blog",
+      "desc": "Containerized Blog website",
+      "tags": ["NextJs", "Tailwind"]
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-[url('/bg.png')] bg-[#fafafa];
+  }
+}
+
+@layer components {
+  .boldTitle {
+    @apply text-3xl py-2 font-bold underline decoration-green-300 decoration-[7px];
+  }
+
+  .skillsGroup {
+    @apply flex flex-wrap mb-6;
+  }
+
+  .skillsGroup > span {
+    @apply px-4 py-2 my-1 mr-2 text-sm font-medium transition scale-90 bg-gray-200 border rounded-full cursor-pointer hover:scale-100 hover:bg-green-300;
+  }
+}
+
+@layer utilities {
+  .profileImgClipPath {
+    clip-path: polygon(0 8%, 100% 0, 100% 92%, 0% 100%);
+  }
+}
