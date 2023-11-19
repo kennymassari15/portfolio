@@ -9,7 +9,7 @@ import Head from "next/head";
 import { useAutoAnimate } from "@formkit/auto-animate/react";
 
 export async function getStaticProps() {
-  const res = await fetch("https://raw.githubusercontent.com/mattbman23/portfolio/master/details.json");
+  const res = await fetch(process.env.GITHUB_URL!);
   const portfolioDetails = await res.json();
 
   return {
