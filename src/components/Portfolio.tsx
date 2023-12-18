@@ -2,6 +2,10 @@ import { AcademicCapIcon, BriefcaseIcon } from "@heroicons/react/24/outline";
 
 import { WorkExperience } from "./WorkExperience";
 import HackReactor from "../../public/hackReactor.png";
+import UTA from "../../public/uta.png";
+import BSWH from "../../public/bswh.svg"
+import COOP from "../../public/co-op.png"
+import AH from "../../public/AH.svg"
 
 export const Portfolio = ({ skills }: { skills: string[] }) => {
   return (
@@ -27,27 +31,27 @@ export const Portfolio = ({ skills }: { skills: string[] }) => {
             <div className="text-xl font-semibold">Experience</div>
           </div>
           <div className="flex flex-col gap-y-3">
-            {/* <WorkExperience
-              logo={IBMLogo}
-              title="Cloud Engineer"
-              company="IBM"
-              location="USA"
-              duration="Apr 2021 - Present"
-            /> */}
-            {/* <WorkExperience
-              logo={AcentureLogo}
-              title="Software Engineer"
-              company="Accenture"
-              location="Singapore"
-              duration="Aug 2019 - Feb 2020"
-            /> */}
-            {/* <WorkExperience
-              logo={RainbowAQ}
-              title="Software Engineer"
-              company="Rainbowaq"
-              location="Singapore"
-              duration="Jul 2017 - Dec 2017"
-            /> */}
+            <WorkExperience
+              logo={AH}
+              title="IT Support"
+              company="Advent Health"
+              location="Burleson"
+              duration="Oct 2023 - Present"
+            />
+            <WorkExperience
+              logo={COOP}
+              title="System Analyst"
+              company="Coop Solutions"
+              location="Fort Worth"
+              duration="Sept 2019 - April 2022"
+            />
+            <WorkExperience
+              logo={BSWH}
+              title="IT Support"
+              company="BaylorScott&White"
+              location="Dallas"
+              duration="Jun 2019 - Sept 2019"
+            />
           </div>
         </div>
         <div className="m-2">
@@ -64,20 +68,13 @@ export const Portfolio = ({ skills }: { skills: string[] }) => {
               company="Software Engineering"
               duration="Dec 2022 - May 2023"
             />
-            {/* <WorkExperience
-              logo={NYP}
-              title="Nanyang Polytechnic"
-              company="IT"
-              location="Singapore"
+            <WorkExperience
+              logo={UTA}
+              title="University of Texas at Arlington"
+              company="Broadcasting"
+              location="Arlington"
               duration="2018 - 2020"
-            /> */}
-            {/* <WorkExperience
-              logo={ITE}
-              title="Institute of Technical Education"
-              company="IT"
-              location="Singapore"
-              duration="2016 - 2018"
-            /> */}
+            />
           </div>
         </div>
       </div>
