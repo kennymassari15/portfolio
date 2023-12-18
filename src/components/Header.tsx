@@ -7,7 +7,7 @@ export const Header = () => {
   return (
     <div className="flex flex-row justify-between w-full overflow-hidden bg-white rounded-lg shadow-2xl">
       <div className="flex flex-row items-center justify-center w-full text-xl text-gray-500 gap-x-3">
-        <div className="p-4 bg-green-300">
+        <div className="p-4 bg-blue-300">
           <HomeIcon className="w-5 h-5 animate-pulse" />
         </div>
         {navs?.map((n, idx) => (
@@ -16,8 +16,8 @@ export const Header = () => {
             onClick={() => setNav(n)}
             className={`${
               curNav === n
-                ? "text-black underline decoration-green-500 decoration-2"
-                : "hover:underline hover:decoration-green-300 hover:decoration-2"
+                ? "text-black underline decoration-blue-500 decoration-2"
+                : "hover:underline hover:decoration-blue-300 hover:decoration-2"
             } cursor-pointer`}
           >
             {n}
@@ -28,7 +28,7 @@ export const Header = () => {
           href="https://blog.mbudiman.com/"
           rel="noreferrer"
           target={"_blank"}
-          className="px-4 text-green-600 cursor-pointer"
+          className="px-4 text-blue-600 cursor-pointer"
         >
           Blog
         </a> */}

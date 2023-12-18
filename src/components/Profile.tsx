@@ -21,7 +21,7 @@ export const Profile = ({ socials }: { socials: PortfolioSocial[] }) => {
         />
         <div className="px-3">
           <div className="relative -my-5">
-            <div className="flex items-center justify-center bg-green-300 rounded-full h-11 w-11">
+            <div className="flex items-center justify-center bg-blue-300 rounded-full h-11 w-11">
               <UserIcon className="w-5 h-5" />
             </div>
             <br />
@@ -32,7 +32,7 @@ export const Profile = ({ socials }: { socials: PortfolioSocial[] }) => {
               <div className="flex flex-row px-4">
                 <div className="flex flex-col items-start">
                   <div className="flex flex-row items-center justify-center gap-x-4">
-                    <div className="w-4 text-xl font-bold text-center text-green-500">
+                    <div className="w-4 text-xl font-bold text-center text-blue-500">
                       o
                     </div>
                     <div className="flex flex-row space-x-1 cursor-pointer">
@@ -41,7 +41,7 @@ export const Profile = ({ socials }: { socials: PortfolioSocial[] }) => {
                         href={social.url}
                         target="_blank"
                         rel="noreferrer"
-                        className="text-gray-500 transition hover:scale-105 hover:text-green-500"
+                        className="text-gray-500 transition hover:scale-105 hover:text-blue-500"
                       >
                         {social.name}
                       </a>
@@ -56,7 +56,7 @@ export const Profile = ({ socials }: { socials: PortfolioSocial[] }) => {
           ))}
 
           <div className="flex justify-center w-full py-2 text-center">
-            <button className="flex flex-row items-center justify-center p-1 space-x-2 transition bg-green-300 rounded-md hover:scale-105">
+            <button className="flex flex-row items-center justify-center p-1 space-x-2 transition bg-blue-300 rounded-md hover:scale-105">
               <a
                 href="KennyMassariResume.pdf"
                 target={"_blank"}

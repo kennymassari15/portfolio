@@ -10,7 +10,7 @@
 
 @layer components {
   .boldTitle {
-    @apply text-3xl py-2 font-bold underline decoration-green-300 decoration-[7px];
+    @apply text-3xl py-2 font-bold underline decoration-blue-300 decoration-[7px];
   }
 
   .skillsGroup {
@@ -18,7 +18,7 @@
   }
 
   .skillsGroup > span {
-    @apply px-4 py-2 my-1 mr-2 text-sm font-medium transition scale-90 bg-gray-200 border rounded-full cursor-pointer hover:scale-100 hover:bg-green-300;
+    @apply px-4 py-2 my-1 mr-2 text-sm font-medium transition scale-90 bg-gray-200 border rounded-full cursor-pointer hover:scale-100 hover:bg-blue-300;
   }
 }
 

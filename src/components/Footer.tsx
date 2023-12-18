@@ -6,7 +6,7 @@ export const Footer = () => {
         href="https://gitlab.com/kenny.massari"
         target={"_blank"}
         rel="noreferrer"
-        className="text-green-300"
+        className="text--300"
       >
         GitLab
       </a>

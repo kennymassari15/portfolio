@@ -10,7 +10,7 @@ export const Projects = ({
     <div className="shadow-2xl bg-[#fafafa] grid grid-cols-3 gap-3 p-2 my-5">
       {portfolioProjects.map((project, idx) => (
         <div
-          className="p-2 border-2 border-green-200 rounded flex flex-col gap-y-2 hover:bg-green-50 bg-gray-100 cursor-default"
+          className="p-2 border-2 border-blue-200 rounded flex flex-col gap-y-2 hover:bg-blue-50 bg-gray-100 cursor-default"
           key={idx}
         >
           <div className="flex flex-row justify-between items-center">
@@ -42,14 +42,14 @@ export const Projects = ({
             href={project.githubUrl}
             target={"_blank"}
             rel="noreferrer"
-            className="font-bold text-xl hover:text-green-500 cursor-pointer"
+            className="font-bold text-xl hover:text-blue-500 cursor-pointer"
           >
             {project.title}
           </a>
           <div className="text-justify max-h-36 overflow-scroll">
             {project.desc}
           </div>
-          <div className="flex flex-row gap-x-3 text-green-500 cursor-pointer">
+          <div className="flex flex-row gap-x-3 text-blue-500 cursor-pointer">
             {project.tags.map((tag) => (
               <div key={tag}>{tag}</div>
             ))}
