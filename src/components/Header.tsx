@@ -25,12 +25,12 @@ export const Header = () => {
         ))}
         <div className="flex-grow"></div>
         {/* <a
-          href="https://blog.mbudiman.com/"
+          href="URL"
           rel="noreferrer"
           target={"_blank"}
           className="px-4 text-blue-600 cursor-pointer"
         >
-          Blog
+          Title
         </a> */}
       </div>
     </div>

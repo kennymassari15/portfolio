@@ -6,7 +6,7 @@ on:
       webDomain:
         description: "Website to revalidate"
         required: true
-        default: "https://kmassari.comm"
+        default: "https://kmassari.com"
 
 jobs:
   build:
