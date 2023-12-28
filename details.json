@@ -23,7 +23,8 @@
     "mongo",
     "AWS",
     "SCRUM",
-    "tailwindcss"
+    "tailwindcss",
+    "nextjs"
   ],
   "projects": [
     {
