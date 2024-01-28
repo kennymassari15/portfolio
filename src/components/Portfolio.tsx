@@ -12,14 +12,10 @@ export const Portfolio = ({ skills }: { skills: string[] }) => {
     <div className="p-5 my-5 bg-white rounded-lg shadow-lg">
       <div className="boldTitle">About Me</div>
       <div className="text-justify">
-        My strong curiosity of technology has driven me to explore various IT
-        domains such as Networking, AI, Cyber Security, Cloud, and Software
-        Development. This journey has brought me to the realization that my true
-        passion lies in building applications. With its versatile nature and
-        ever-changing environment, software engineering presents a new and
-        exciting challenge day to day. My diverse technological background and
-        desire for an exhilarating challenge enables me to make valuable
-        contributions on any team or organization.
+      My growing interest in technology has led me to explore various IT domains, with a particular focus on Software Development.
+      Through this journey, I've discovered that my true passion lies in building applications. The dynamic and ever-changing
+      environment of software engineering provides a constant and exhilarating challenge. With my diverse technological background,
+      I am well-equipped to make valuable contributions to any team or organization.
       </div>
       <div className="boldTitle">Resume</div>
       <div className="grid xl:grid-cols-2 lg:grid-cols-2">
