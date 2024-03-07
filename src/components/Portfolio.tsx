@@ -3,10 +3,10 @@ import { AcademicCapIcon, BriefcaseIcon } from "@heroicons/react/24/outline";
 import { WorkExperience } from "./WorkExperience";
 import HackReactor from "../../public/hackReactor.png";
 import UTA from "../../public/uta.png";
-import BSWH from "../../public/bswh.svg"
+import BSWH from "../../public/bswh.svg";
 import COOP from "../../public/co-op.png"
 import AH from "../../public/AH.svg"
-import southwest from "../../public/Southwest.png"
+import southwest from "../../public/southwest.png"
 
 export const Portfolio = ({ skills }: { skills: string[] }) => {
   return (
