@@ -6,6 +6,7 @@ import UTA from "../../public/uta.png";
 import BSWH from "../../public/bswh.svg"
 import COOP from "../../public/co-op.png"
 import AH from "../../public/AH.svg"
+import southwest from "../../public/Southwest.png"
 
 export const Portfolio = ({ skills }: { skills: string[] }) => {
   return (
@@ -28,11 +29,18 @@ export const Portfolio = ({ skills }: { skills: string[] }) => {
           </div>
           <div className="flex flex-col gap-y-3">
             <WorkExperience
+              logo={southwest}
+              title="Travel Tech"
+              company="Southwest Airlines"
+              location="Dallas"
+              duration="March 2024 - Present"
+            />
+            <WorkExperience
               logo={AH}
               title="IT Support"
               company="Advent Health"
               location="Burleson"
-              duration="Oct 2023 - Present"
+              duration="Oct 2023 - Feb 2024"
             />
             <WorkExperience
               logo={COOP}
