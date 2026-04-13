@@ -9,21 +9,25 @@
       "title": "GitLab",
       "name": "kenny.massari",
       "url": "https://gitlab.com/kenny.massari"
+    },
+    {
+      "title": "GitHub",
+      "name": "kenny.massari",
+      "url": "https://github.com/kennymassari15"
     }
   ],
   "skills": [
     "java",
-    "C#",
+    "angular",
     "python",
     "JS/TS",
-    "react-native",
+    "react",
     "docker",
     "microservices",
     "sql",
     "mongo",
     "AWS",
-    "SCRUM",
-    "tailwindcss",
+    "postgres",
     "nextjs",
     "testing"
   ],
@@ -31,9 +35,16 @@
     {
       "date": "Dec 18 2023",
       "title": "My Portfolio",
-      "githubUrl": "https://gitlab.com/kenny.massari",
+      "githubUrl": "https://github.com/kennymassari15/portfolio",
       "desc": "Containerized Portfolio",
       "tags": ["Python", "JS"]
+    },
+    {
+      "date": "Mar 30 2026",
+      "title": "POE2 API",
+      "githubUrl": "https://github.com/kennymassari15/poe2api",
+      "desc": "Containerized POE2 API",
+      "tags": ["Java", "Angular", "Spring Boot"]
     }
   ]
 }
