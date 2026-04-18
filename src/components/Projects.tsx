@@ -39,14 +39,14 @@ export const Projects = ({
             </a>
           </div>
           <a
-            href={project.githubUrl}
+            href={project.liveUrl ?? project.githubUrl}
             target={"_blank"}
             rel="noreferrer"
             className="font-bold text-xl hover:text-blue-500 cursor-pointer"
           >
             {project.title}
           </a>
-          <div className="text-justify max-h-36 overflow-scroll">
+          <div className="text-justify">
             {project.desc}
           </div>
           <div className="flex flex-row gap-x-3 text-blue-500 cursor-pointer">

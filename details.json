@@ -33,16 +33,10 @@
   ],
   "projects": [
     {
-      "date": "Dec 18 2023",
-      "title": "My Portfolio",
-      "githubUrl": "https://github.com/kennymassari15/portfolio",
-      "desc": "Containerized Portfolio",
-      "tags": ["Python", "JS"]
-    },
-    {
       "date": "Mar 30 2026",
       "title": "POE2 API",
       "githubUrl": "https://github.com/kennymassari15/poe2api",
+      "liveUrl": "https://mango-coast-030c64b10.7.azurestaticapps.net",
       "desc": "Containerized POE2 API",
       "tags": ["Java", "Angular", "Spring Boot"]
     }

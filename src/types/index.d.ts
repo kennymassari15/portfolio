@@ -16,6 +16,7 @@ export type PortfolioProject = {
   date: string;
   title: string;
   githubUrl: string;
+  liveUrl?: string;
   desc: string;
   tags: string[];
 };
